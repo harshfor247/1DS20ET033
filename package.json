@@ -1,0 +1,20 @@
+{
+  "name": "johndoetrainapp",
+  "version": "1.0.0",
+  "description": "Johndoetraindoe",
+  "main": "backend/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "author": "Harsh Shivhare",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.22"
+  }
+}
